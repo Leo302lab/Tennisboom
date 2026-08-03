@@ -1,0 +1,63 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1920" y2="1080" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#070C16"/><stop offset=".58" stop-color="#111226"/><stop offset="1" stop-color="#073A45"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientTransform="translate(410 1040) rotate(-55) scale(620 520)">
+      <stop stop-color="#693054" stop-opacity=".72"/><stop offset="1" stop-color="#693054" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadow" x="760" y="100" width="1120" height="900" filterUnits="userSpaceOnUse"><feDropShadow dx="0" dy="26" stdDeviation="28" flood-opacity=".34"/></filter>
+    <clipPath id="shot"><rect x="862" y="154" width="952" height="728" rx="24"/></clipPath>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#bg)"/><rect width="1920" height="1080" fill="url(#glow)"/>
+
+  <g font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif">
+    <text x="76" y="80" fill="#C8FF43" font-size="18" font-weight="600" letter-spacing="4">PRODUCT CASE STUDY · 2026</text>
+    <text x="76" y="154" fill="white" font-size="62" font-weight="700">Boom Tennis</text>
+    <text x="76" y="207" fill="#D3D8E3" font-size="28">轻量化 AI 网球动作分析 Web</text>
+
+    <g transform="translate(76 274)">
+      <rect width="696" height="112" rx="20" fill="#111B25" stroke="#263644"/>
+      <circle cx="54" cy="56" r="28" fill="#C8FF43"/>
+      <path d="M44 56h20M54 46v20" stroke="#0A1510" stroke-width="3" stroke-linecap="round"/>
+      <text x="102" y="45" fill="#8794A5" font-size="17">核心痛点</text>
+      <text x="102" y="78" fill="white" font-size="24" font-weight="600">高成本上传 · 隐私压力 · 反馈滞后</text>
+    </g>
+
+    <g transform="translate(76 410)">
+      <text fill="#7E8A9B" font-size="16" font-weight="600" letter-spacing="2">FROM NEED TO DEMO</text>
+      <path d="M28 70V352" stroke="#344554" stroke-width="2"/>
+      <g transform="translate(0 52)">
+        <circle cx="28" cy="28" r="28" fill="#1C2A32" stroke="#C8FF43"/><text x="28" y="35" text-anchor="middle" fill="#C8FF43" font-size="18" font-weight="700">01</text>
+        <text x="80" y="20" fill="white" font-size="24" font-weight="600">需求与边界</text><text x="80" y="50" fill="#8794A5" font-size="17">只分析关键动作，不追求实时动作纠错</text>
+      </g>
+      <g transform="translate(0 144)">
+        <circle cx="28" cy="28" r="28" fill="#1C2A32" stroke="#C8FF43"/><text x="28" y="35" text-anchor="middle" fill="#C8FF43" font-size="18" font-weight="700">02</text>
+        <text x="80" y="20" fill="white" font-size="24" font-weight="600">端侧推理</text><text x="80" y="50" fill="#8794A5" font-size="17">MediaPipe 将视频转换为人体关键点时序</text>
+      </g>
+      <g transform="translate(0 236)">
+        <circle cx="28" cy="28" r="28" fill="#1C2A32" stroke="#C8FF43"/><text x="28" y="35" text-anchor="middle" fill="#C8FF43" font-size="18" font-weight="700">03</text>
+        <text x="80" y="20" fill="white" font-size="24" font-weight="600">可解释分析</text><text x="80" y="50" fill="#8794A5" font-size="17">速度、角度与状态规则形成评分依据</text>
+      </g>
+      <g transform="translate(0 328)">
+        <circle cx="28" cy="28" r="28" fill="#C8FF43"/><path d="m17 28 8 8 15-17" stroke="#0A1510" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+        <text x="80" y="20" fill="white" font-size="24" font-weight="600">可运行 Demo</text><text x="80" y="50" fill="#8794A5" font-size="17">关键帧、改进建议与训练报告导出</text>
+      </g>
+    </g>
+
+    <g filter="url(#shadow)">
+      <rect x="850" y="142" width="976" height="752" rx="30" fill="#09130E" stroke="#354A3D"/>
+      <g clip-path="url(#shot)"><image href="source-overview.png" x="48" y="-58" width="1838" height="1034"/></g>
+    </g>
+    <rect x="1096" y="866" width="482" height="52" rx="26" fill="#C8FF43"/>
+    <text x="1337" y="899" text-anchor="middle" fill="#09130E" font-size="18" font-weight="700">浏览器端完成：识别 → 解释 → 导出</text>
+
+    <g transform="translate(862 940)">
+      <g><text fill="#C8FF43" font-size="30" font-weight="700">4 人</text><text y="32" fill="#8996A8" font-size="15">多人姿态与主体锁定</text></g>
+      <line x1="270" y1="0" x2="270" y2="48" stroke="#33424F"/>
+      <g transform="translate(310)"><text fill="#C8FF43" font-size="30" font-weight="700">4 阶段</text><text y="32" fill="#8996A8" font-size="15">准备 · 引拍 · 击球 · 随挥</text></g>
+      <line x1="610" y1="0" x2="610" y2="48" stroke="#33424F"/>
+      <g transform="translate(650)"><text fill="#C8FF43" font-size="30" font-weight="700">Local-first</text><text y="32" fill="#8996A8" font-size="15">视频默认留在浏览器</text></g>
+    </g>
+  </g>
+</svg>

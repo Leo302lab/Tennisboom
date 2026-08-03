@@ -1,0 +1,63 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1920" y2="1080"><stop stop-color="#080D17"/><stop offset=".68" stop-color="#141227"/><stop offset="1" stop-color="#073844"/></linearGradient>
+    <radialGradient id="g2"><stop stop-color="#66304F" stop-opacity=".65"/><stop offset="1" stop-color="#66304F" stop-opacity="0"/></radialGradient>
+    <clipPath id="cards"><rect x="76" y="362" width="776" height="600" rx="22"/></clipPath>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#bg2)"/><ellipse cx="280" cy="1030" rx="620" ry="430" fill="url(#g2)"/>
+  <g font-family="Inter, PingFang SC, Microsoft YaHei, sans-serif">
+    <text x="76" y="74" fill="#C8FF43" font-size="18" font-weight="600" letter-spacing="4">DESIGN REVIEW</text>
+    <text x="76" y="145" fill="white" font-size="54" font-weight="700">轻量化，不是少做</text>
+    <text x="76" y="198" fill="#AEB8C7" font-size="27">而是把算力与反馈集中在关键动作上</text>
+
+    <g transform="translate(76 252)">
+      <rect width="236" height="72" rx="16" fill="#171D2B" stroke="#2D3949"/><text x="24" y="29" fill="#7F8C9E" font-size="14">痛点 01</text><text x="24" y="54" fill="white" font-size="19" font-weight="600">持续上传成本高</text>
+      <rect x="252" width="236" height="72" rx="16" fill="#171D2B" stroke="#2D3949"/><text x="276" y="29" fill="#7F8C9E" font-size="14">痛点 02</text><text x="276" y="54" fill="white" font-size="19" font-weight="600">视频隐私压力大</text>
+      <rect x="504" width="236" height="72" rx="16" fill="#171D2B" stroke="#2D3949"/><text x="528" y="29" fill="#7F8C9E" font-size="14">痛点 03</text><text x="528" y="54" fill="white" font-size="19" font-weight="600">完整视频噪声多</text>
+    </g>
+
+    <rect x="64" y="350" width="800" height="624" rx="28" fill="#07110C" stroke="#30453A"/>
+    <g clip-path="url(#cards)"><image href="source-thinking.png" x="37" y="142" width="1726" height="971"/></g>
+    <rect x="98" y="888" width="730" height="52" rx="12" fill="#0D1A13" stroke="#2D4436"/>
+    <circle cx="126" cy="914" r="7" fill="#C8FF43"/><text x="148" y="921" fill="white" font-size="18" font-weight="600">输出关键动作，而不是保存冗长过程</text>
+
+    <g transform="translate(940 250)">
+      <text fill="#7F8C9E" font-size="16" font-weight="600" letter-spacing="2">SOLUTION PIPELINE</text>
+      <g transform="translate(0 38)">
+        <rect width="190" height="116" rx="18" fill="#171D2B" stroke="#344252"/>
+        <rect x="22" y="22" width="38" height="30" rx="6" stroke="#C8FF43" stroke-width="2"/><circle cx="41" cy="37" r="8" stroke="#C8FF43" stroke-width="2"/>
+        <text x="22" y="80" fill="white" font-size="20" font-weight="600">视频解码</text><text x="22" y="103" fill="#7F8C9E" font-size="14">浏览器本地读取</text>
+        <path d="M204 58h42m-10-9 10 9-10 9" stroke="#526171" stroke-width="2"/>
+        <rect x="258" width="190" height="116" rx="18" fill="#171D2B" stroke="#344252"/>
+        <circle cx="296" cy="35" r="12" stroke="#C8FF43" stroke-width="2"/><path d="M296 47v24m-20 22 20-22 20 22m-39-25 19 3 20-3" stroke="#C8FF43" stroke-width="2"/>
+        <text x="280" y="80" fill="white" font-size="20" font-weight="600">姿态推理</text><text x="280" y="103" fill="#7F8C9E" font-size="14">多人关键点时序</text>
+        <path d="M462 58h42m-10-9 10 9-10 9" stroke="#526171" stroke-width="2"/>
+        <rect x="516" width="190" height="116" rx="18" fill="#171D2B" stroke="#344252"/>
+        <path d="M540 30h34m-34 17h48m-48 17h27" stroke="#C8FF43" stroke-width="3" stroke-linecap="round"/>
+        <text x="538" y="80" fill="white" font-size="20" font-weight="600">规则解释</text><text x="538" y="103" fill="#7F8C9E" font-size="14">速度 · 角度 · 状态</text>
+        <path d="M720 58h42m-10-9 10 9-10 9" stroke="#526171" stroke-width="2"/>
+        <rect x="774" width="190" height="116" rx="18" fill="#C8FF43"/>
+        <path d="M800 27h40v45h-40zM807 39h26m-26 10h26m-26 10h18" stroke="#0A1510" stroke-width="2"/>
+        <text x="796" y="80" fill="#0A1510" font-size="20" font-weight="700">训练报告</text><text x="796" y="103" fill="#344020" font-size="14">关键帧与建议</text>
+      </g>
+    </g>
+
+    <g transform="translate(940 456)">
+      <text fill="white" font-size="28" font-weight="700">能力边界</text>
+      <rect y="38" width="474" height="246" rx="22" fill="#111B25" stroke="#2C3D49"/>
+      <circle cx="32" cy="72" r="9" fill="#C8FF43"/><text x="54" y="79" fill="#C8FF43" font-size="18" font-weight="700">当前可做到</text>
+      <g fill="white" font-size="18"><text x="32" y="122">✓ 多人检测与目标球员锁定</text><text x="32" y="162">✓ 准备 / 引拍 / 击球 / 随挥</text><text x="32" y="202">✓ 评分依据与针对性建议</text><text x="32" y="242">✓ 关键帧及 HTML 报告导出</text></g>
+
+      <rect x="494" y="38" width="470" height="246" rx="22" fill="#111722" stroke="#303745"/>
+      <circle cx="526" cy="72" r="9" fill="#778493"/><text x="548" y="79" fill="#AEB7C5" font-size="18" font-weight="700">暂不承诺</text>
+      <g fill="#A7B0BE" font-size="18"><text x="526" y="122">— 精确判断真实击球点</text><text x="526" y="162">— 网球与球拍轨迹追踪</text><text x="526" y="202">— 专业教练级医学结论</text><text x="526" y="242">— 任意机位下的稳定评分</text></g>
+    </g>
+
+    <g transform="translate(940 806)">
+      <rect width="964" height="168" rx="24" fill="#C8FF43"/>
+      <text x="32" y="47" fill="#304017" font-size="16" font-weight="700" letter-spacing="2">DESIGN DECISION</text>
+      <text x="32" y="91" fill="#0A1510" font-size="28" font-weight="700">先用可解释规则验证价值，再用数据迭代模型。</text>
+      <text x="32" y="130" fill="#3D4C26" font-size="18">把模型能力边界直接转化为产品范围，降低成本，也避免“AI 万能”的错误预期。</text>
+    </g>
+  </g>
+</svg>
